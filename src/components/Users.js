@@ -1,20 +1,10 @@
 import React from 'react';
 
-import { gql, useQuery } from '@apollo/client';
+import {  useQuery } from '@apollo/client';
 
-const GET_USERS =gql `
-      query{
-  users {
-    data{
-      id ,
-      name ,
-      email ,
-      phone
-    }
-  }
-}
+//Queries
+import { GET_USERS } from '../graphQL/queries';
 
-`;
 
 function Users() {
 
