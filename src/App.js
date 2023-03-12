@@ -1,7 +1,9 @@
 
 import './App.css';
-import User from './components/User';
-import Users from './components/Users';
+import CreateUser from './components/CreateUser';
+// import User from './components/User';
+// import Users from './components/Users';
+// import UserOnclick from './components/UserOnclick';
 
 
 
@@ -10,7 +12,10 @@ function App() {
     <div className="App">
 
      {/* <Users/> */}
-     <User />
+     {/* <User /> */}
+     {/* <UserOnclick /> */}
+     <CreateUser />
+
 
     </div>
   );
